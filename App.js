@@ -1,15 +1,10 @@
-import { View, Text } from "react-native";
+import AuthNavigation from "./AuthNavigation";
+import LikedPostScreen from "./screens/LikedPostScreen";
+// import "react-native-gesture-handler";
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
-  );
+  // return <HomeScreen />;
+  // return <NewPostScreen />;
+  return <AuthNavigation />;
+  // return <LikedPostScreen/>
 }
